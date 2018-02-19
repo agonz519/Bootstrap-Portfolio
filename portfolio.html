@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Bootstrap Portfolio</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style>
+		/*OVERRIDE STYLING TO REMOVE PADDING*/
+		.nopadding {
+			padding: 0 !important;
+		}
+
+		.linkImages {
+			height: 58px;
+			width: 58px;
+		}
+
+		.col-hover:hover {
+			background-color: #f5f5f5;
+		}
+
+		.portfolioImage {
+			height: 110px;
+			width: 180px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="bg-light mb-4 border-bottom">
+	<div class="container nopadding">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"><h1>Alexander Gonzalez</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About </a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h2>Portfolio</h2>
+			<hr>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-6 col-hover">
+						<a href=""><img class="portfolioImage img-fluid img-thumbnail" src="images/hangman.jpg" alt="hangman's noose"><br>
+						<h5>Hangman</h5></a><br>
+					</div>
+					<div class="col-md-6 col-hover">
+						<a href=""><img class="portfolioImage img-fluid img-thumbnail" src="images/rpg_game.png" alt="cartoony floating island"><br>
+							<h5>RPG Game</h5></a><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-hover">
+						<a href=""><img class="portfolioImage img-fluid img-thumbnail" src="images/trivia.jpg" alt="trivia written in a fancy style"><br>
+							<h5>Trivia</h5></a><br>
+					</div>
+					<div class="col-md-6 col-hover">
+						<a href=""><img class="portfolioImage img-fluid img-thumbnail" src="images/rutgers.jpg" alt="Some hot dogs because I don't know what this is"><br>
+							<h5>Rutgers Info Widget</h5></a><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-hover">
+						<a href=""><img class="portfolioImage img-fluid img-thumbnail" src="images/rockpaper.jpg" alt="A sign showing the symbols for rock and paper"><br>
+							<h5>Rock Paper Scissors</h5></a><br>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="col-md-3"><br>
+			<div class="card text-center">
+				<div class="card-header" align="center">
+					<h4>Connect with Me</h4>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="https://github.com/agonz519" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/GitHub.png" alt="github icon"></a>
+						<a href="https://www.linkedin.com/in/alexander-gonzalez/" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/LinkedIn.png" alt="linkedin icon"></a>
+						<a href="https://stackoverflow.com/users/7969635/agonz?tab=profile" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/StackOverflow.png" alt="stack overflow icon">
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

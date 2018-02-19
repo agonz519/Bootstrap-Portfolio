@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Bootstrap Portfolio</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style>
+		/*OVERRIDE STYLING TO REMOVE PADDING*/
+		.nopadding {
+			padding: 0 !important;
+		}
+
+		.linkImages {
+			height: 58px;
+			width: 58px;
+		}
+
+		#profileImage {
+			height: 180px;
+			width: 180px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="bg-light mb-4 border-bottom">
+	<div class="container nopadding">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"><h1>Alexander Gonzalez</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h2>About Me</h2>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/Alex.jpg" class="img-fluid img-thumbnail" id="profileImage">
+					</div>
+					<div class="col-md-9">
+						<p>
+							Hello there! First the boring stuff... I was born and raised in the Atlanta area. I graduated
+							from Georgia State University with a Comp Sci degree. My focus was on human computer
+							interaction & graphics so I didn't do much code. I had a few coding classes but
+							after graduating I didn't put any of it to practice. After school I started working in software
+							quality assurance and have now been doing that for over 4 years. I'm currently part of the GATech
+							Coding Bootcamp because I want to sharpen my technical skills and become a web developer!
+						</p>
+						<br>
+						<p>
+							...And now the fun stuff. I might be SUPER serious when you first meet me, but soon after you'll
+							discover I'm actually SUPER silly. I like to joke around and I'd say I have a great sense of humor.
+							I'm a pretty laid back dude so you'd have to be a huge jerk to offend me. I enjoy hiking and try to
+							do so whenever I get the chance. I really enjoy gaming on my PC or PS4 and have recently gotten into
+							VR gaming which is quite a trip! As far as music goes I listen to various genres but mostly
+							rock & metal. I used to hang out quite a bit in East Atlanta Village, and still enjoy making a trip
+							down from time to time. Feel free to reach out if you want to know more! Dueces!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3"><br>
+			<div class="card text-center">
+				<div class="card-header" align="center">
+					<h4>Connect with Me</h4>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="https://github.com/agonz519" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/GitHub.png" alt="github icon"></a>
+						<a href="https://www.linkedin.com/in/alexander-gonzalez/" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/LinkedIn.png" alt="linkedin icon"></a>
+						<a href="https://stackoverflow.com/users/7969635/agonz?tab=profile" target="_blank"><img class="img-fluid img-thumbnail linkImages" src="images/StackOverflow.png" alt="stack overflow icon">
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
